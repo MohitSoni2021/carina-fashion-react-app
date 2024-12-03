@@ -13,7 +13,7 @@ import ComingSoonPageLayout from './components/ComingSoonPage/ComingSoon.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/dashboard',
     element: <Layout/>,
     children:[
       {
