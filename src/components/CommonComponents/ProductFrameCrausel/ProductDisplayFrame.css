@@ -1,0 +1,13 @@
+
+
+.Product-Display-Frame-Outer-Container > h2 {
+    writing-mode: vertical-rl;
+  text-orientation: mixed;
+  rotate: 180deg;
+}
+
+.vertical-text{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  rotate: 180deg;
+}

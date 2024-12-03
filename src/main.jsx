@@ -9,6 +9,7 @@ import AboutPageLayout from './components/About/AboutPage.jsx'
 import ProductIdPageLayout from './components/ProductID/ProductId.jsx'
 import NotFoundComponent from './components/PageNotFound/NotFound.jsx'
 import ComingSoonPageLayout from './components/ComingSoonPage/ComingSoon.jsx'
+import { ProductDisplayFrameExport } from './LayoutComponentExporter.jsx'
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: '/product/:id',
     element: <ProductIdPageLayout />
+  },
+  {
+    path: '/products',
+    element: <ProductDisplayFrameExport />
   },
   {
     path: '*',
