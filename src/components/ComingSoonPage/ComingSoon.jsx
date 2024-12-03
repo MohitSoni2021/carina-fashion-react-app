@@ -7,9 +7,7 @@ const ComingSoonPageLayout = () => {
     
     <div className='main-outer-container-comingsoonpage flex items-center justify-center'> 
 
-        <div className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 background-text-comingsoonpage'>
-            <h1 className='text-6xl font-extrabold max-md:text-5xl max-sm:text-4xl text-center'>Coming Soon</h1>
-        </div>
+        
 
         <div className="component-container-comingsoonpage gap-16 flex flex-col z-20">
             <div className="upper-headings-comingsoonpage text-center w-full text-[#00A69C]">
@@ -19,6 +17,9 @@ const ComingSoonPageLayout = () => {
 
             <div className="middle-tittle-comingsoonpage text-center">
                 <h1 className='text-4xl font-extrabold text-white'>Coming Soon</h1>
+                <div className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 background-text-comingsoonpage'>
+            <h1 className='text-6xl font-extrabold max-md:text-5xl max-sm:text-4xl text-center'>Coming Soon</h1>
+        </div>
             </div> 
 
             <div className="text-center text-white flex flex-col gap-2">
